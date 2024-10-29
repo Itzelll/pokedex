@@ -15,24 +15,22 @@ body, html {
 
 .header {
   display: flex;
+  background-color: black;
+  padding: 10px 35px;
   align-items: center;
-  justify-content: space-between;
-  background-color: #333;
-  color: #fff;
-  padding: 10px 20px;
 }
 
-.header-title {
-  font-size: 2em;
-  color: #ffcb05;
-  font-family: 'Arial', sans-serif;
+.header-container img {
+  margin: 20px; 
 }
 
 .header-buttons {
   display: flex;
+  margin: 20 px;
 }
 
 .nav-button {
+  display: flex;
   background-color: #3b4cca;
   border: none;
   color: #fff;
@@ -43,43 +41,32 @@ body, html {
 }
 
 .nav-button:hover {
-  background-color: #4b5cca;
-}
-
-.type-buttons {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 10px 0;
-}
-
-.type-button {
-  padding: 8px 15px;
-  margin: 5px;
-  border: none;
-  border-radius: 5px;
-  color: white;
-  cursor: pointer;
-  font-weight: bold;
-  text-transform: capitalize;
+  background-color: #4b5cca6f;
 }
 
 .pokedex {
   text-align: center;
-  padding: 20px;
+  padding: 5px;
 }
 
 .pokemon-list {
   display: flex;
-  flex-direction: column;
+  /*flex-direction: column;*/
+  flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
 }
 
 .pokemon-item {
   background-color: #f0f0f0;
   padding: 10px;
   margin: 5px;
-  border-radius: 5px;
-  width: 200px;
-  text-align: left;
+  width: 300px;
+  text-align: center;
 }
+
+.img-p {
+  width: 150px; 
+  height: 150px;
+}
+
